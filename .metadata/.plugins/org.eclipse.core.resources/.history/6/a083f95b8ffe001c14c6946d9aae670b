@@ -1,0 +1,25 @@
+package AssigmentFour;
+
+import java.util.Scanner;
+
+public class VoteCount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Enter the candidates number : ");
+		int candidateNumber = scanner.nextInt();
+		
+		System.out.print("Enter the voter number : ");
+		int voterNumber = scanner.nextInt();
+		
+		int[] voteCount = new int[voterNumber];
+		
+		for(int i = 0; i < voteCount.length; i++) {
+			voteCount[i] = scanner.nextInt();
+		}
+		
+		
+	}
+}

@@ -1,0 +1,24 @@
+package AssigmentThree;
+
+import java.util.Scanner;
+
+public class ExerciseTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int inputOne, inputTwo;
+		Scanner scanner = new Scanner(System.in);
+		inputOne = scanner.nextInt();
+		inputTwo = scanner.nextInt();
+		computeLargeValue(inputOne, inputTwo);
+	}
+	
+	public static int computeLargeValue(int inputOne, int inputTwo) {
+		if(inputOne < inputTwo) {
+			return inputTwo;
+		} else {
+			return inputOne;
+		}
+	}
+
+}

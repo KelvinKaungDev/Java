@@ -1,0 +1,17 @@
+package AssigmentFour;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ReverseWrod {
+
+		public static void main (String[] args) {
+		       String reverseOutput = reverse("Hello World");
+		       System.out.print(reverseOutput);
+	    }
+		
+		public static String reverse(String word) {
+			char[] letter = new char[word];
+		}
+
+}

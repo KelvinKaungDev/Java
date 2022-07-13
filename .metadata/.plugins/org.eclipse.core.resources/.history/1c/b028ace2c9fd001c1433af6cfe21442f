@@ -1,0 +1,13 @@
+package AssigmentThree;
+
+public class ExerciseTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int inputOne, inputTwo;
+		Scanner scanner = new scanner(System.in);
+	}
+	
+	
+
+}

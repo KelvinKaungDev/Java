@@ -1,0 +1,24 @@
+package AssigmentThree;
+
+import java.util.Scanner;
+
+public class ExerciseOne {
+	
+	public static void main(String []args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter number: ");
+        int number = scanner.nextInt();
+        String str = Integer.toString(number);
+        
+        while(true) {
+            	if(number >= 0 ) {
+            		System.out.print("Positive");
+            	} else if(number < 0){
+            		System.out.print("Negative");
+            	} else if(str == "n" || str == "N") {
+            		break;
+            	}
+            		
+            }
+        }
+}

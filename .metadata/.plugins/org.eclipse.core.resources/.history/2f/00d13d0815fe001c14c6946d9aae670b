@@ -1,0 +1,25 @@
+package AssigmentFour;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ReverseWrod {
+
+		public static void main (String[] args) {
+		       String reverseOutput = reverse("How are you?");
+		       System.out.print(reverseOutput);
+	    }
+		
+		public static String reverse(String word) {
+			String[] splitted = word.split(" ");
+			String result = "";
+			for(String str: splitted) {
+				char[] out = new char[str.length()];
+				for(int i = str.length() - 1; i >= 0; --i) {
+					out[str.length() - 1 - i] = str.charAt(i);
+				}
+				result += String.valueOf(out).toUpperCase().replaceAll("[?/@!.$,^$]", "");
+			}
+			return result;
+		}
+}

@@ -1,0 +1,18 @@
+package AssigmentFour;
+
+public class MartixCalculation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int[][] add(int[][] matrixA, int[][] matrixB) {
+		for (int i=0; i < martrixA.length; i++) {
+			for(int y=0; y< martrixA[i].length; y++) {
+				mat
+			}
+		}
+	}
+
+}
