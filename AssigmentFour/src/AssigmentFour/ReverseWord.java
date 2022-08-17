@@ -10,6 +10,7 @@ public class ReverseWord {
 	public static String reverse(String word) {
 		String[] splitted = word.split(" ");
 		String result = "";
+		
 		for(String str: splitted) {
 			char[] out = new char[str.length()];
 			for(int i = str.length() - 1; i >= 0; --i) {
@@ -19,5 +20,4 @@ public class ReverseWord {
 		}
 		return result.substring(1);
 	}
-
 }
