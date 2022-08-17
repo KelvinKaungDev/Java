@@ -67,7 +67,7 @@ public class RationalNumber {
 		this.denominator = this.denominator /gcd;
 		System.out.print(this.numerator + "/" + this.denominator);
 	}
-	
+
 	private int gcd(int a, int b)
 	{
 		int t = 0;
@@ -78,7 +78,6 @@ public class RationalNumber {
 	        a = t;
 	    }
         return a;
-        
 	}
 		
 	public String toString()
@@ -92,7 +91,7 @@ public class RationalNumber {
 		
 		RationalNumber myNum = new RationalNumber(6,9);
 		myNum.multiply(new RationalNumber(3,9));
-		System.out.print(myNum.toString());
+		System.out.print(myNum.toDouble());
 	}
 
 }

@@ -10,8 +10,8 @@ public class Card {
 	public Card() 
 	{
 		Random generator = new Random();
-		int rank_random = generator.nextInt(this.rank.length);
-		int suit_random = generator.nextInt(this.suit.length);
+		int rank_random = generator.nextInt(this.rank.length + 1);
+		int suit_random = generator.nextInt(this.suit.length + 1);
 		
 		System.out.println(this.rank[rank_random] + " " + this.suit[suit_random]);
 		
